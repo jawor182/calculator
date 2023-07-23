@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Orbitron&family=Roboto:ital,wght@1,300;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+    <script
+    src="https://kit.fontawesome.com/4c536a6bd5.js"
+    crossorigin="anonymous"
+  ></script>
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div id="calculator" class="calculator">
+            <div class="output">
+                <input id="output" class="output-field" readonly maxlength="13" />
+            </div>
+            <div class="input">
+                <button class="number" value="7">7</button>
+                <button class="number" value="8">8</button>
+                <button class="number" value="9">9</button>
+                <button id="divide" class="operator">&divide;</button>
+                <button class="number" value="4">4</button>
+                <button class="number" value="5">5</button>
+                <button class="number" value="6">6</button>
+                <button id="multi" class="operator">X</button>
+                <button class="number" value="1">1</button>
+                <button class="number" value="2">2</button>
+                <button class="number" value="3">3</button>
+                <button id="add" class="operator">+</button>
+                <button class="clear">C</button>
+                <button class="number" value="0">0</button>
+                <button id="equal" class="equal">=</button>
+                <button id="substract" class="operator">-</button>
+            </div>
+        </div>
+        <footer>
+        <p>
+            Copyright©  
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+            jawor182  
+          
+          <a href="https://github.com/jawor182" target="_blank">
+            <i class="fab fa-github"></i
+          ></a></p>
+        </footer>
+    </div>
+</body>
+</html>
