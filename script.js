@@ -20,7 +20,8 @@ function divide(num1, num2) {
         return num1 / num2;
     }
     else {
-        return "Cannot divide by zero!";
+        alert("Can't divide  by 0");
+        return 0;
     }
 }
 function operate(num1, num2, operator) {

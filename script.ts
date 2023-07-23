@@ -24,7 +24,8 @@ function divide(num1: number, num2: number) {
     if (num2 !== 0) {
         return num1 / num2;
     } else {
-        return "Cannot divide by zero!";
+        alert( "Can't divide  by 0");
+        return 0;
     }
 }
 
